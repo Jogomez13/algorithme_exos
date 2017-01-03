@@ -30,7 +30,7 @@ public class exo6{
 				}else if (reponse =='n' || reponse == 'N') {
 			quittez = true;
 		}else
-		System.out.print("Hicham n'a pas compris Voulez vous quittez (o ou n)? ");
+		System.out.print("J'ai pas compris ' Voulez vous quittez (o ou n)? ");
 		}
 	}
 	}

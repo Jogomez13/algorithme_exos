@@ -53,13 +53,13 @@ while (!is_numeric($l)) {
 }
 
 echo "Valeur max : ";
-$n = readline();
+$v = readline();
 // n = la valeur max readline permet de lire et de stocker la saisi utilisateur dans n
 while (!is_numeric($n)) {
     echo "Veuillez entrer une valeur numérique\n";
     echo "Valeur max : ";
-    $n = readline();
+    $v = readline();
 }
 
-pascal(intval($l), intval($n));
+pascal(intval($l), intval($v));
 //on converti notre variable en entier

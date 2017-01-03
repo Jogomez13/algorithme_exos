@@ -40,10 +40,10 @@ class exo4 {
     System.out.println("Nombre de lignes max : ");
     int l = saisi.nextInt();
 // l = le nombre de ligne
-    System.out.println("Valeur max : ");cd
-      int n = saisi.nextInt();
-// n = la valeur max
-      pascal(l,n);
+    System.out.println("Valeur max : ");
+      int v = saisi.nextInt();
+// v = la valeur max
+      pascal(l,v);
     }
 
 }
